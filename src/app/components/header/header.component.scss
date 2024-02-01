@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6D6D6D;
+
+    .logo {
+        width: 2.5rem;
+    }
+
+    .header-nav-buttons {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+
+        .about-us {
+            margin-left: 3rem;
+        }
+    }
+
+    .social-media {
+        display: flex;
+        width: 8rem;
+        justify-content: space-between;
+        align-items: center;
+
+        .instagram-icon {
+            display: flex;
+            width: 1.5rem;
+        }
+
+        .instagram-user {
+            cursor: pointer;
+            font-size: .9rem;
+        }
+    }
+}
